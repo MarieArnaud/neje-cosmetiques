@@ -5,11 +5,6 @@ body {
 	background-color: #FEFCFD;
 }
 
-p {
-	text-align: center;
-	font-size: 32px;
-}
-
 a {
 	text-decoration: none;
 	font-size: 32px;
@@ -23,39 +18,41 @@ color: #C1292E;
 
 #banner{
   text-align: center;
-  background-image: url("images/ingredientes-naturales.jpg");
+  background-image: url("images/bannerok.jpg");
   background-size: cover;
   background-position: center;
-  padding: 150px;
+  padding: 50px;
   color: white;
   border-radius: 10px;
 }
 #banner h1 {
-  font-size: 66px;
+  font-size: 120px;
   text-align: center;
-  color:#022835;
+  color:#112236;
 }
 #banner p {
+	line-height: 0;
 	text-align: center;
-  margin-bottom: 40px;
-  color:#022835;
+  margin-bottom: 60px;
+  color:#41647A;
   opacity: 0.8;
   font-size: 32px;
   font-weight: lighter;
 }
 #banner img {
-  border-radius: 50%;
+  border-radius: 10%;
 }
 #footer{
-  padding: 30px;
-  background-color: #356473;
+  padding: 3px;
+  background-color: #41647A;
   color: white;
+  border-radius: 7px;
 }
 .card-white {
   background-color: white;
-  border-radius: 4px;
+  border-radius: 20px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  box-shadow: 0 6px 8px rgba(50,50,93,.11);
   padding: 16px;
   margin: 16px 0px;
 }
@@ -64,17 +61,17 @@ color: #C1292E;
 }
 .btn-blue {
   color: white;
-  background-color: #356473;
+  background-color: #112236;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  padding: 15px 20px;
+  padding: 10px 60px;
 }
 .btn-blue:hover {
-  background-color: #7795f8;
+  background-color: #41647A;
   color: white;
 }
 
-.cards{
+.cards {
   margin: 25px auto;
   width: 1500px;
   display: grid;
@@ -83,8 +80,9 @@ color: #C1292E;
 }
 
 .formulaire {
-	text-align: left;
-	font-size: 20px;
+	text-align: right;
+	font-size: 12px;
+
 }
 
 @media(max-width: 992px){
